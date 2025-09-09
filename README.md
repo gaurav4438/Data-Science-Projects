@@ -25,7 +25,22 @@ It combines **technical analysis + business storytelling**, making it portfolio-
 ---
 
 ## 📂 Repository Structure
-- to be added
+titanic-eda-report/
+├── README.md                 # Project overview & documentation
+├── notebooks/                # Jupyter notebooks (analysis + code)
+│   └── titanic_eda.ipynb
+├── reports/                  # Executive-level reports
+│   └── Titanic_EDA_Report.pdf
+├── data/                     # Dataset (optional, or linked via Kaggle)
+│   └── train.csv
+├── visuals/                  # Generated plots & figures
+│   ├── survival_by_gender.png
+│   ├── survival_by_class.png
+│   ├── age_distribution.png
+│   └── correlation_heatmap.png
+├── requirements.txt          # Python dependencies
+└── .gitignore                # Git ignore file
+
 
 
 ## 🛠️ Tools & Libraries
